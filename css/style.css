@@ -34,8 +34,13 @@ body
 .header_upper ul:nth-child(1) li a{
     color: white;
     font-size: 25px;
+    transition: .3s;
     font-weight: 600;
     text-decoration: none;
+}
+
+.header_upper ul:nth-child(1) li a:hover{
+    color: rgb(199, 96, 0);
 }
 
 .header_upper ul:nth-child(2){
@@ -196,6 +201,12 @@ header::before{
     justify-content: center;
 }
 
+/* main */
+
+main{
+    width: 100%;
+}
+
 
 /* Adaptation */
 
@@ -286,14 +297,16 @@ header::before{
     .toggle:checked ~  .header_upper ul:nth-child(2){
         opacity: 1;
         pointer-events: all;
+        transition: .3s;
+        transition-delay: .3s;
     }
 
     .header_upper ul:nth-child(2){
         position: relative;
         width: 50%;
-        transition: .3s;
         left: 7%;
         top: 5%;
+        transition: .2s;
         opacity: 0;
         pointer-events: none;
         padding: 0px;
@@ -457,6 +470,13 @@ header::before{
 
     .header_container h1::before{
         display: none;
+    }
+}
+
+@media (max-width:900px){
+
+    .header_container{
+        top: 7%;
     }
 }
 
