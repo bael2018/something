@@ -108,7 +108,7 @@ body{
 
 header{
     width: 100%;
-    background: url('https://static.wixstatic.com/media/cac8e7_35f2cdc52d8a4a8e8ca37dd66ca472e2.jpg') center / cover fixed;
+    background: url('../img/header_banner.jpg') center / cover fixed;
     height: 575px;
     object-fit: cover;
     position: relative;
@@ -1232,7 +1232,7 @@ footer a:hover i{
     }
 
     .header_upper ul:nth-child(1) li{
-        margin-left: 10px;
+        margin-left: 0px;
     }
 }
 
