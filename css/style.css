@@ -1151,6 +1151,10 @@ footer a:hover i{
         width: 50%;
         left: 3%;
     }
+
+    .header_upper ul:nth-child(1) li{
+        margin-left: 0px;
+    }
 }
 
 @media (max-width:640px){
@@ -1229,10 +1233,6 @@ footer a:hover i{
 
     .header_upper ul:nth-child(2){
         left: -15%;
-    }
-
-    .header_upper ul:nth-child(1) li{
-        margin-left: 0px;
     }
 }
 
